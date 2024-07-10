@@ -20,3 +20,9 @@ def test_vacancy_str(vacancy):
                             "Ташкент, Краткое описание: Опыт работы в продажах обязателен, Консультирование клиентов")
 
 
+def test_vacancy_lt(vacancy, vacancy2):
+    """ Тест утверждает, что одно значение меньше другого """
+
+    assert vacancy < vacancy2
+    if vacancy > vacancy2:
+        assert ValueError

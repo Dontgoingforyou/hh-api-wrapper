@@ -1,29 +1,35 @@
 import json
 
 from config import VACANCIES_PATH
+from src.hh_api import HeadHunterAPI
 from src.saver import Saver
 from src.vacancy import Vacancy
 
 
 class JSONSaver(Saver):
 
-    def __init__(self):
-        self.filename = VACANCIES_PATH
+    def write_data(self, data_json):
 
-    def write_data(self, data):
-        with open(self.filename, "w", encoding="utf-8") as file:
-            json.dump(data, file, ensure_ascii=False, indent=5)
+        try:
+            data = json.load(open(VACANCIES_PATH))
+        except FileNotFoundError:
+            data = []
+
+        data.append(data_json)
+
+        with open(VACANCIES_PATH, "w") as file:
+            json.dump(data_json, file, indent=7, ensure_ascii=False)
 
     def get_data(self):
-        with open(self.filename, encoding="utf-8") as file:
+        with open(VACANCIES_PATH, encoding="utf-8") as file:
             data = json.load(file)
             vacancies = []
             for vacancy in data:
                 vacancies.append(Vacancy(
                     name=vacancy.get("name"),
                     alternate_url=vacancy.get("alternate_url"),
-                    salary_from=vacancy.get("salary").get("from"),
-                    salary_to=vacancy.get("salary").get("to"),
+                    salary_from=vacancy.get("salary").get("from") if vacancy.get("salary") else "Нет информации",
+                    salary_to=vacancy.get("salary").get("to") if vacancy.get("salary") else "Нет информации",
                     area_name=vacancy.get("area").get("name"),
                     requirement=vacancy.get("snippet").get("requirement"),
                     responsibility=vacancy.get("snippet").get("responsibility")
@@ -32,3 +38,12 @@ class JSONSaver(Saver):
 
     def del_data(self):
         pass
+
+
+if __name__ == "__main__":
+    json_saver = JSONSaver()
+    hh_api = HeadHunterAPI("Курьер")
+    all_vacancies = json_saver.write_data(hh_api.get_vacancies())
+    a = json_saver.get_data()
+    print(a)
+

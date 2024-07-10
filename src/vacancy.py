@@ -23,21 +23,17 @@ class Vacancy:
         else:
             raise ValueError
 
-    # @staticmethod
-    # def get_information(data):
-    #     return data if data else "Нет информаций"
 
-
-if __name__ in "__main__":
-    vacancy = Vacancy("Менеджер по работе с клиентами", "https://hh.ru/vacancy/101709979",
-                      4_000_000, 7_000_000, "Ташкент",
-                      "Опыт работы в продажах обязателен", "Консультирование клиентов")
-    print(vacancy.name)
-    print(vacancy.alternate_url)
-    print(vacancy.salary_from)
-    print(vacancy.salary_to)
-    print(vacancy.area_name)
-    print(vacancy.requirement)
-    print(vacancy.responsibility)
-
-    print(str(vacancy))
+# if __name__ in "__main__":
+#     vacancy = Vacancy("Менеджер по работе с клиентами", "https://hh.ru/vacancy/101709979",
+#                       4_000_000, 7_000_000, "Ташкент",
+#                       "Опыт работы в продажах обязателен", "Консультирование клиентов")
+#     print(vacancy.name)
+#     print(vacancy.alternate_url)
+#     print(vacancy.salary_from)
+#     print(vacancy.salary_to)
+#     print(vacancy.area_name)
+#     print(vacancy.requirement)
+#     print(vacancy.responsibility)
+#
+#     print(str(vacancy))

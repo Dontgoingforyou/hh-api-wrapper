@@ -1,23 +1,34 @@
 import requests
+
 from src.get_vacancies import GetVacanciesAPI
 
 
 class HeadHunterAPI(GetVacanciesAPI):
     """ Класс для подключения к hh.ru """
 
-    def __init__(self):
+    def __init__(self, keyword, per_page):
         self.url = "https://api.hh.ru/vacancies"
         self.headers = {"User-Agent": "HH-User-Agent"}
-        self.params = {"text": "", "page": 0, "per_page": 100}
+        self.params = {"text": keyword, "per_page": per_page}
         self.vacancies = []
 
-    def get_vacancies(self, keyword):
+    def get_response(self, keyword, per_page):
+        return requests.get(self.url, params=self.params)
 
-        self.params["text"] = keyword
+    def get_vacancies(self, keyword, per_page):
+        return self.get_response(keyword, per_page).json()["items"]
 
-        while self.params.get("page") != 1:
-            response = requests.get(self.url, headers=self.headers, params=self.params)
-            vacancies = response.json()["items"]
-            vacancies.extend(vacancies)
-            self.params["page"] += 1
-
+    def get_filter_vacancies(self, keyword, per_page):
+        filter_vacancies = []
+        vacancies = self.get_vacancies(keyword, per_page)
+        for vacancy in vacancies:
+            filter_vacancies.append({
+                "name": vacancy.get("name"),
+                "alternate_url": vacancy.get("alternate_url"),
+                "salary_from": vacancy.get("salary").get("from") if vacancy.get("salary") else "Нет информации",
+                "salary_to": vacancy.get("salary").get("to") if vacancy.get("salary") else "Нет информации",
+                "area_name": vacancy.get("area").get("name"),
+                "requirement": vacancy.get("snippet").get("requirement"),
+                "responsibility": vacancy.get("snippet").get("responsibility")
+            })
+        return filter_vacancies
