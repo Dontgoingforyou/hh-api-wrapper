@@ -12,5 +12,5 @@ class Saver(ABC):
         pass
 
     @abstractmethod
-    def del_data(self):
+    def del_data(self, data_json):
         pass

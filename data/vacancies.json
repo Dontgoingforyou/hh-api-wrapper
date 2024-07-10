@@ -1,0 +1,965 @@
+[
+  {
+    "id": "103625776",
+    "premium": false,
+    "name": "Координатор по работе с курьерами",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "2782",
+      "name": "Фергана",
+      "url": "https://api.hh.ru/areas/2782"
+    },
+    "salary": null,
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-10T08:48:27+0300",
+    "created_at": "2024-07-10T08:48:27+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103625776",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103625776?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103625776",
+    "relations": [],
+    "employer": {
+      "id": "9173883",
+      "name": "«UZUM TECHNOLOGIES».",
+      "url": "https://api.hh.ru/employers/9173883",
+      "alternate_url": "https://hh.ru/employer/9173883",
+      "logo_urls": {
+        "original": "https://img.hhcdn.ru/employer-logo-original/1015324.png",
+        "90": "https://img.hhcdn.ru/employer-logo/5682064.png",
+        "240": "https://img.hhcdn.ru/employer-logo/5682065.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9173883",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Наличие опыта работы диспетчером/в логистике, как преимущество. Грамотная устная и письменная речь на узбекском и русском языках. ",
+      "responsibility": "Составление графика работы на неделю для <highlighttext>курьеров</highlighttext>. Осуществление взаимодействия с <highlighttext>курьерами</highlighttext> по всем текущим вопросам по средствам связи телефон, телеграмм. "
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "39",
+        "name": "Диспетчер"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103596909",
+    "premium": false,
+    "name": "Водитель-курьер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1002",
+      "name": "Минск",
+      "url": "https://api.hh.ru/areas/1002"
+    },
+    "salary": {
+      "from": 2000,
+      "to": 3000,
+      "currency": "BYR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-09T14:55:22+0300",
+    "created_at": "2024-07-09T14:55:22+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103596909",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103596909?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103596909",
+    "relations": [],
+    "employer": {
+      "id": "11233350",
+      "name": "Империя Сантехники",
+      "url": "https://api.hh.ru/employers/11233350",
+      "alternate_url": "https://hh.ru/employer/11233350",
+      "logo_urls": null,
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11233350",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Права категории В со стажем вождения не менее 3-х лет или стаж 1 год в службе доставки. ",
+      "responsibility": "Качественная и своевременная доставка товаров (мелкогабаритных и крупногабаритных) покупателям. Погрузочно-разгрузочные работы. Работа с кассовым аппаратом и терминалом. "
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "21",
+        "name": "Водитель"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "100685034",
+    "premium": false,
+    "name": "Водитель-курьер на личном автомобиле (полный день/частичная занятость)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1002",
+      "name": "Минск",
+      "url": "https://api.hh.ru/areas/1002"
+    },
+    "salary": {
+      "from": 1700,
+      "to": null,
+      "currency": "BYR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-06-25T16:48:56+0300",
+    "created_at": "2024-06-25T16:48:56+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=100685034",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/100685034?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/100685034",
+    "relations": [],
+    "employer": {
+      "id": "2270019",
+      "name": "Глобалпрогрупп",
+      "url": "https://api.hh.ru/employers/2270019",
+      "alternate_url": "https://hh.ru/employer/2270019",
+      "logo_urls": {
+        "90": "https://img.hhcdn.ru/employer-logo/6286390.jpeg",
+        "original": "https://img.hhcdn.ru/employer-logo-original/1166488.jpg",
+        "240": "https://img.hhcdn.ru/employer-logo/6286391.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2270019",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Коммуникабельность и доброжелательность. - Хорошее знание города и умение пользоваться навигатором.",
+      "responsibility": "Водитель категории Б."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "flexible",
+      "name": "Гибкий график"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "21",
+        "name": "Водитель"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103643569",
+    "premium": false,
+    "name": "Пеший курьер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 60000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Москва",
+      "street": "Переведеновский переулок",
+      "building": "21с1",
+      "lat": 55.781337,
+      "lng": 37.69242,
+      "description": null,
+      "raw": "Москва, Переведеновский переулок, 21с1",
+      "metro": {
+        "station_name": "Электрозаводская",
+        "line_name": "Арбатско-Покровская",
+        "station_id": "3.161",
+        "line_id": "3",
+        "lat": 55.782057,
+        "lng": 37.7053
+      },
+      "metro_stations": [
+        {
+          "station_name": "Электрозаводская",
+          "line_name": "Арбатско-Покровская",
+          "station_id": "3.161",
+          "line_id": "3",
+          "lat": 55.782057,
+          "lng": 37.7053
+        },
+        {
+          "station_name": "Электрозаводская",
+          "line_name": "Большая кольцевая линия",
+          "station_id": "97.803",
+          "line_id": "97",
+          "lat": 55.782057,
+          "lng": 37.7053
+        },
+        {
+          "station_name": "Электрозаводская",
+          "line_name": "Некрасовская",
+          "station_id": "98.802",
+          "line_id": "98",
+          "lat": 55.782057,
+          "lng": 37.7053
+        },
+        {
+          "station_name": "Электрозаводская",
+          "line_name": "МЦД-3",
+          "station_id": "135.853",
+          "line_id": "135",
+          "lat": 55.781111,
+          "lng": 37.705278
+        }
+      ],
+      "id": "16094790"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-10T12:08:24+0300",
+    "created_at": "2024-07-10T12:08:24+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103643569",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103643569?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103643569",
+    "relations": [],
+    "employer": {
+      "id": "4841609",
+      "name": "EVDOKIA",
+      "url": "https://api.hh.ru/employers/4841609",
+      "alternate_url": "https://hh.ru/employer/4841609",
+      "logo_urls": {
+        "90": "https://img.hhcdn.ru/employer-logo/6251646.jpeg",
+        "original": "https://img.hhcdn.ru/employer-logo-original/1157799.jpeg",
+        "240": "https://img.hhcdn.ru/employer-logo/6251647.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4841609",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Желание зарабатывать. Нацеленность на результат. Доброжелательность и отзывчивость к коллегам и нашим Клиентам. Внимательность и оперативность. Активную жизненную позицию, желание...",
+      "responsibility": "Доставка заказов интернет-магазина по Москве. Осуществление безналичного расчета с покупателями. Возврат не выкупленных позиций на склад. В день от..."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "40",
+        "name": "Другое"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103627203",
+    "premium": false,
+    "name": "Водитель-курьер (ИНВИТРО)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1002",
+      "name": "Минск",
+      "url": "https://api.hh.ru/areas/1002"
+    },
+    "salary": {
+      "from": 1764,
+      "to": 1764,
+      "currency": "BYR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Минск",
+      "street": "улица Брикета",
+      "building": "30",
+      "lat": 53.906628,
+      "lng": 27.413879,
+      "description": null,
+      "raw": "Минск, улица Брикета, 30",
+      "metro": {
+        "station_name": "Каменная Горка",
+        "line_name": "Автозаводская",
+        "station_id": "63.416",
+        "line_id": "63",
+        "lat": 53.90683,
+        "lng": 27.437558
+      },
+      "metro_stations": [
+        {
+          "station_name": "Каменная Горка",
+          "line_name": "Автозаводская",
+          "station_id": "63.416",
+          "line_id": "63",
+          "lat": 53.90683,
+          "lng": 27.437558
+        }
+      ],
+      "id": "14441536"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-10T09:11:54+0300",
+    "created_at": "2024-07-10T09:11:54+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103627203",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103627203?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103627203",
+    "relations": [],
+    "employer": {
+      "id": "1147352",
+      "name": "Независимая лаборатория ИНВИТРО, Беларусь",
+      "url": "https://api.hh.ru/employers/1147352",
+      "alternate_url": "https://hh.ru/employer/1147352",
+      "logo_urls": {
+        "90": "https://img.hhcdn.ru/employer-logo/5382880.jpeg",
+        "240": "https://img.hhcdn.ru/employer-logo/5382881.jpeg",
+        "original": "https://img.hhcdn.ru/employer-logo-original/962213.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1147352",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Права категории В со стажем вождения не менее 3-х лет или стаж 1 год в службе доставки. ",
+      "responsibility": "Доставка биоматериала, документов и грузов по заданному маршруту (г. Минск). Ведение путевых, маршрутных листов."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "21",
+        "name": "Водитель"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "between3And6",
+      "name": "От 3 до 6 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103654466",
+    "premium": false,
+    "name": "Курьер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 65000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Москва",
+      "street": "Садовническая улица",
+      "building": "14с2",
+      "lat": 55.746801,
+      "lng": 37.629116,
+      "description": null,
+      "raw": "Москва, Садовническая улица, 14с2",
+      "metro": {
+        "station_name": "Новокузнецкая",
+        "line_name": "Замоскворецкая",
+        "station_id": "2.89",
+        "line_id": "2",
+        "lat": 55.742391,
+        "lng": 37.62928
+      },
+      "metro_stations": [
+        {
+          "station_name": "Новокузнецкая",
+          "line_name": "Замоскворецкая",
+          "station_id": "2.89",
+          "line_id": "2",
+          "lat": 55.742391,
+          "lng": 37.62928
+        }
+      ],
+      "id": "13245379"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-10T14:03:00+0300",
+    "created_at": "2024-07-10T14:03:00+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103654466",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103654466?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103654466",
+    "relations": [],
+    "employer": {
+      "id": "5013607",
+      "name": "Специнжстрой",
+      "url": "https://api.hh.ru/employers/5013607",
+      "alternate_url": "https://hh.ru/employer/5013607",
+      "logo_urls": null,
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5013607",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Активность, ответственность, коммуникабельность, обучаемость. Хорошо ориентироваться в городе. Уметь составлять маршруты.",
+      "responsibility": "Получение и передача документации. Выполнение поручений руководителя. Локальность исполнения заявок в пределах города Москвы."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "58",
+        "name": "Курьер"
+      }
+    ],
+    "accept_incomplete_resumes": false,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103665411",
+    "premium": false,
+    "name": "Курьер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 55000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Москва",
+      "street": "Большой Дровяной переулок",
+      "building": "18",
+      "lat": 55.745301,
+      "lng": 37.658733,
+      "description": null,
+      "raw": "Москва, Большой Дровяной переулок, 18",
+      "metro": null,
+      "metro_stations": [],
+      "id": "10723643"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-10T15:58:19+0300",
+    "created_at": "2024-07-10T15:58:19+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103665411",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103665411?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103665411",
+    "relations": [],
+    "employer": {
+      "id": "3974177",
+      "name": "Смайл Студио",
+      "url": "https://api.hh.ru/employers/3974177",
+      "alternate_url": "https://hh.ru/employer/3974177",
+      "logo_urls": {
+        "240": "https://img.hhcdn.ru/employer-logo/6698443.jpeg",
+        "original": "https://img.hhcdn.ru/employer-logo-original/1269533.jpg",
+        "90": "https://img.hhcdn.ru/employer-logo/6698442.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3974177",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Хорошее знание Москвы. Ответственность. Порядочность. Пунктуальность.",
+      "responsibility": "Доставка работ из зуботехнической лаборатории в клиники (м. Площадь Ильича м. Таганская – м. Дмитровская). Доставка медицинской документации из архива в..."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "shift",
+      "name": "Сменный график"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "58",
+        "name": "Курьер"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103533477",
+    "premium": false,
+    "name": "Курьер",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": true,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": null,
+      "to": 55000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Москва",
+      "street": "4-й Лесной переулок",
+      "building": "4",
+      "lat": 55.779064,
+      "lng": 37.586922,
+      "description": null,
+      "raw": "Москва, 4-й Лесной переулок, 4",
+      "metro": {
+        "station_name": "Белорусская",
+        "line_name": "Кольцевая",
+        "station_id": "5.20",
+        "line_id": "5",
+        "lat": 55.775179,
+        "lng": 37.582303
+      },
+      "metro_stations": [
+        {
+          "station_name": "Белорусская",
+          "line_name": "Кольцевая",
+          "station_id": "5.20",
+          "line_id": "5",
+          "lat": 55.775179,
+          "lng": 37.582303
+        }
+      ],
+      "id": "3006298"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-08T18:22:33+0300",
+    "created_at": "2024-07-08T18:22:33+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103533477",
+    "show_logo_in_search": null,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103533477?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103533477",
+    "relations": [],
+    "employer": {
+      "id": "1151393",
+      "name": "Футбольный клуб Динамо-Москва",
+      "url": "https://api.hh.ru/employers/1151393",
+      "alternate_url": "https://hh.ru/employer/1151393",
+      "logo_urls": {
+        "original": "https://img.hhcdn.ru/employer-logo-original/996469.jpeg",
+        "90": "https://img.hhcdn.ru/employer-logo/5606672.jpeg",
+        "240": "https://img.hhcdn.ru/employer-logo/5606673.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1151393",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Ответственность и пунктуальность. Хорошая ориентация на местности. Вежливость, опрятный внешний вид.",
+      "responsibility": "Своевременная и бережная доставка корреспонденции и посылок. Отправка писем/мелких посылок через отделения Почты России. Корректное заполнение накладных. Материальная ответственность."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "58",
+        "name": "Курьер"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103571939",
+    "premium": false,
+    "name": "Курьер (доставка документов)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 60000,
+      "to": 60000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": null,
+      "street": null,
+      "building": null,
+      "lat": null,
+      "lng": null,
+      "description": null,
+      "raw": null,
+      "metro": {
+        "station_name": "Новокузнецкая",
+        "line_name": "Замоскворецкая",
+        "station_id": "2.89",
+        "line_id": "2",
+        "lat": 55.742391,
+        "lng": 37.62928
+      },
+      "metro_stations": [
+        {
+          "station_name": "Новокузнецкая",
+          "line_name": "Замоскворецкая",
+          "station_id": "2.89",
+          "line_id": "2",
+          "lat": 55.742391,
+          "lng": 37.62928
+        }
+      ],
+      "id": "87990"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-09T10:58:31+0300",
+    "created_at": "2024-07-09T10:58:31+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103571939",
+    "branding": {
+      "type": "MAKEUP",
+      "tariff": null
+    },
+    "show_logo_in_search": true,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103571939?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103571939",
+    "relations": [],
+    "employer": {
+      "id": "46387",
+      "name": "АТОН",
+      "url": "https://api.hh.ru/employers/46387",
+      "alternate_url": "https://hh.ru/employer/46387",
+      "logo_urls": {
+        "original": "https://img.hhcdn.ru/employer-logo-original/501235.jpg",
+        "90": "https://img.hhcdn.ru/employer-logo/2446693.jpeg",
+        "240": "https://img.hhcdn.ru/employer-logo/2446694.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=46387",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы <highlighttext>курьером</highlighttext> будет плюсом. Ответственность, пунктуальность, аккуратность.",
+      "responsibility": "Доставка корреспонденции по Москве (8-10 точек в день). Предоставление документов по доверенности."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "58",
+        "name": "Курьер"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "noExperience",
+      "name": "Нет опыта"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  },
+  {
+    "id": "103607454",
+    "premium": false,
+    "name": "Водитель-курьер на LADA LARGUS",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 110000,
+      "to": null,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2024-07-09T16:45:24+0300",
+    "created_at": "2024-07-09T16:45:24+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103607454",
+    "branding": {
+      "type": "MAKEUP",
+      "tariff": null
+    },
+    "show_logo_in_search": true,
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/103607454?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/103607454",
+    "relations": [],
+    "employer": {
+      "id": "780654",
+      "name": "Lamoda",
+      "url": "https://api.hh.ru/employers/780654",
+      "alternate_url": "https://hh.ru/employer/780654",
+      "logo_urls": {
+        "original": "https://img.hhcdn.ru/employer-logo-original/902382.png",
+        "90": "https://img.hhcdn.ru/employer-logo/4050215.png",
+        "240": "https://img.hhcdn.ru/employer-logo/4050216.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=780654",
+      "accredited_it_employer": false,
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Будет плюсом, если у вас есть опыт работы с людьми и работы разъездного характера от полугода.",
+      "responsibility": "Утром в начале смены загружать товар. Загрузка происходит ОДИН раз. Склад на выбор: м. Савеловская\\Дмитровская и МЦК\\МЦД Новохохловская. "
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "shift",
+      "name": "Сменный график"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "21",
+        "name": "Водитель"
+      }
+    ],
+    "accept_incomplete_resumes": true,
+    "experience": {
+      "id": "between1And3",
+      "name": "От 1 года до 3 лет"
+    },
+    "employment": {
+      "id": "full",
+      "name": "Полная занятость"
+    },
+    "adv_response_url": null,
+    "is_adv_vacancy": false,
+    "adv_context": null
+  }
+]
