@@ -1,6 +1,7 @@
 import json
 
 from config import VACANCIES_PATH
+from src.hh_api import HeadHunterAPI
 from src.saver import Saver
 from src.vacancy import Vacancy
 
@@ -39,5 +40,7 @@ class JSONSaver(Saver):
         del data_json
 
 
-
-
+if __name__ == "__main__":
+    saver = JSONSaver()
+    hh = HeadHunterAPI("Курьер", 5)
+    saver.write_data(hh.get_filter_vacancies("Курьер", 5))
