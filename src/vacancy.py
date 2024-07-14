@@ -6,8 +6,8 @@ class Vacancy:
     def __init__(self, name, alternate_url, salary_from, salary_to, area_name, requirement, responsibility):
         self.name = name
         self.alternate_url = alternate_url
-        self.salary_from = salary_from
-        self.salary_to = salary_to
+        self.salary_from: int = salary_from
+        self.salary_to: int = salary_to
         self.area_name = area_name
         self.requirement = requirement
         self.responsibility = responsibility
@@ -22,8 +22,8 @@ class Vacancy:
 
     def __lt__(self, other):
 
-        if isinstance(self and other, int):
-            return (self.salary_from, self.salary_to) < (other.salary_from, other.salary_to)
+        # if isinstance(self and other, int):
+        return self.salary_from < other.salary_from
 
     @staticmethod
     def vacancies_lst(vacancy_lst):
@@ -32,23 +32,25 @@ class Vacancy:
         return Vacancy(
             vacancy_lst["name"],
             vacancy_lst["alternate_url"],
-            vacancy_lst["salary"]["from"] if vacancy_lst["salary"] else "Нет информации",
-            vacancy_lst["salary"]["to"] if vacancy_lst["salary"] else "Нет информации",
+            vacancy_lst["salary"]["from"] if not ((vacancy_lst["salary"] is None)
+                                                  or (vacancy_lst["salary"]["from"] is None)) else 0,
+            vacancy_lst["salary"]["to"] if not ((vacancy_lst["salary"] is None)
+                                                or (vacancy_lst["salary"]["to"] is None)) else 0,
             vacancy_lst["area"]["name"],
             vacancy_lst["snippet"]["requirement"],
             vacancy_lst["snippet"]["responsibility"],
         )
 
-    @staticmethod
-    def vacancies_dict(vacancy_dict):
+    def vacancies_dict(self):
         """ Метод возвращает вакацнию в виде словаря """
 
         return {
-            vacancy_dict.get("name"),
-            vacancy_dict.get("alternate_url"),
-            vacancy_dict.get("salary").get("from") if vacancy_dict.get("salary") else "Нет информации",
-            vacancy_dict.get("salary").get("to") if vacancy_dict.get("salary") else "Нет информации",
-            vacancy_dict.get("area").get("name"),
-            vacancy_dict.get("snippet").get("requirement"),
-            vacancy_dict.get("snippet").get("responsibility"),
+            "name": self.name,
+            "alternate_url": self.alternate_url,
+            "salary_from": self.salary_from,
+            "salary_to": self.salary_to,
+            "area_name": self.area_name,
+            "requirement": self.requirement,
+            "responsibility": self.responsibility,
         }
+

@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class Saver(ABC):
 
     @abstractmethod
-    def write_data(self, data_json):
+    def write_data(self):
         pass
 
     @abstractmethod
