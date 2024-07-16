@@ -1,48 +1,53 @@
+
 class Vacancy:
     """ Класс для работы с вакансиями """
 
     __slots__ = ("name", "alternate_url", "salary_from", "salary_to", "area_name", "requirement", "responsibility")
 
     def __init__(self, name, alternate_url, salary_from, salary_to, area_name, requirement, responsibility):
-        self.name = name
-        self.alternate_url = alternate_url
+        """ Конструктор класса """
+
+        self.name: str = name
+        self.alternate_url: str = alternate_url
         self.salary_from: int = salary_from
         self.salary_to: int = salary_to
-        self.area_name = area_name
-        self.requirement = requirement
-        self.responsibility = responsibility
+        self.area_name: str = area_name
+        self.requirement: str = requirement
+        self.responsibility: str = responsibility
 
-    def __str__(self):
-        return (f"Наименование вакансии: {self.name},\n"
-                f"Ссылка на вакансию: {self.alternate_url},\n"
-                f"Зарплата: от {self.salary_from} до {self.salary_to},\n"
-                f"Место работы: {self.area_name},\n"
-                f"Краткое описание: {self.requirement},\n"
+    def __str__(self) -> str:
+        """ Строковое представление вакансии """
+
+        return (f"Наименование вакансии: {self.name}\n"
+                f"Ссылка на вакансию: {self.alternate_url}\n"
+                f"Зарплата: от {self.salary_from} до {self.salary_to}\n"
+                f"Место работы: {self.area_name}\n"
+                f"Краткое описание: {self.requirement}\n"
                 f"{self.responsibility}\n")
 
-    def __lt__(self, other):
+    def __lt__(self, other) -> bool:
+        """ Метод сравнения от большего к меньшему """
 
-        # if isinstance(self and other, int):
         return self.salary_from < other.salary_from
 
-    @staticmethod
-    def vacancies_lst(vacancy_lst):
-        """ Метод возвращает вакацнию в виде списка """
+    @classmethod
+    def from_hh_dict(cls, vacancy_data: dict):
+        """ Метод возвращает экземпляр класса в виде списка """
 
-        return Vacancy(
-            vacancy_lst["name"],
-            vacancy_lst["alternate_url"],
-            vacancy_lst["salary"]["from"] if not ((vacancy_lst["salary"] is None)
-                                                  or (vacancy_lst["salary"]["from"] is None)) else 0,
-            vacancy_lst["salary"]["to"] if not ((vacancy_lst["salary"] is None)
-                                                or (vacancy_lst["salary"]["to"] is None)) else 0,
-            vacancy_lst["area"]["name"],
-            vacancy_lst["snippet"]["requirement"],
-            vacancy_lst["snippet"]["responsibility"],
+        salary = vacancy_data.get("salary")
+
+        return cls(
+            vacancy_data["name"],
+            vacancy_data["alternate_url"],
+            salary.get("from") if salary.get("from") else 0,
+            salary.get("to") if salary.get("to") else 0,
+            vacancy_data["area"]["name"],
+            vacancy_data["snippet"]["requirement"],
+            vacancy_data["snippet"]["responsibility"],
         )
 
-    def vacancies_dict(self):
-        """ Метод возвращает вакацнию в виде словаря """
+    def to_dict(self) -> dict:
+        """ Метод возвращает вакансию в виде словаря """
 
         return {
             "name": self.name,
@@ -53,4 +58,3 @@ class Vacancy:
             "requirement": self.requirement,
             "responsibility": self.responsibility,
         }
-

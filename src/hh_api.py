@@ -1,7 +1,7 @@
 import requests
+from requests import Response
 
 from src.get_vacancies import GetVacanciesAPI
-from src.vacancy import Vacancy
 
 
 class HeadHunterAPI(GetVacanciesAPI):
@@ -10,19 +10,12 @@ class HeadHunterAPI(GetVacanciesAPI):
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies"
         self.headers = {"User-Agent": "HH-User-Agent"}
-        self.vacancies = []
+        self.params = {"text": "", "per_page": "", "only_with_salary": True}
 
-    def get_response(self, keyword, per_page):
-        params = {"text": keyword, "per_page": per_page}
-        return requests.get(self.url, params=params)
+    def get_response(self, keyword, per_page) -> Response:
+        self.params["text"] = keyword
+        self.params["per_page"] = per_page
+        return requests.get(self.url, params=self.params)
 
-    def get_vacancies(self, keyword, per_page):
+    def get_vacancies(self, keyword: str, per_page: int):
         return self.get_response(keyword, per_page).json()["items"]
-
-    def get_filter_vacancies(self, keyword, per_page):
-        filter_vacancies = []
-        vacancies = self.get_vacancies(keyword, per_page)
-        for vacancy in vacancies:
-            filter_vacancies.append(Vacancy.vacancies_lst(vacancy))
-        return filter_vacancies
-

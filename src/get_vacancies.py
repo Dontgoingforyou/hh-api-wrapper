@@ -11,7 +11,3 @@ class GetVacanciesAPI(ABC):
     @abstractmethod
     def get_vacancies(self, keyword, per_page):
         pass
-
-    @abstractmethod
-    def get_filter_vacancies(self, keyword, per_page):
-        pass

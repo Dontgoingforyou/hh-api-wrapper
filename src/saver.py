@@ -2,9 +2,12 @@ from abc import ABC, abstractmethod
 
 
 class Saver(ABC):
+    """ Абстрактный класс для записи в файл """
+    def __init__(self, filename):
+        self.filename = filename
 
     @abstractmethod
-    def write_data(self):
+    def write_data(self, vacancies):
         pass
 
     @abstractmethod
@@ -12,5 +15,5 @@ class Saver(ABC):
         pass
 
     @abstractmethod
-    def del_data(self, data_json):
+    def del_data(self):
         pass
