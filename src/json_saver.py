@@ -1,5 +1,6 @@
 import json
 
+from config import VACANCIES_PATH_JSON
 from src.saver import Saver
 
 
@@ -18,7 +19,7 @@ class JSONSaver(Saver):
         data.extend(vacancies)
 
         with open(self.filename, "w", encoding="utf-8") as file:
-            return json.dump(data, file, ensure_ascii=False, indent=7)
+            return json.dump(data, file, ensure_ascii=False, indent=4)
 
     def get_data(self):
         """ Получение данных json """
@@ -31,5 +32,4 @@ class JSONSaver(Saver):
     def del_data(self):
         """ Удаление данных из файла """
 
-        with open(self.filename, "w", encoding="utf-8"):
-            pass
+        VACANCIES_PATH_JSON.unlink()
