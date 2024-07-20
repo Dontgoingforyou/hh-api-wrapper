@@ -13,7 +13,7 @@ class TXTSaver(Saver):
         """ Запись данных в txt """
 
         with open(self.filename, "a", encoding="utf=8") as file:
-            file.write("\n" + vacancies)
+            file.write(vacancies)
 
     def get_data(self):
         """ Получение данных txt """
