@@ -5,9 +5,9 @@
 
 ## Установка 
 - Клонируйте репозиторий на свой компьютер:
-git clone https://github.com/ваш_логин/hh-api-wrapper.git
+`git clone https://github.com/ваш_логин/hh-api-wrapper.git`
 - Запустите программу:
-python main.py
+`python main.py`
 
 ## Требования к реализации
 
